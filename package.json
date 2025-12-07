@@ -1,0 +1,29 @@
+{
+  "name": "websocket-typescript-learning",
+  "version": "1.0.0",
+  "description": "WebSocketとTypeScriptの学習用プロジェクト",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start": "node dist/server.js",
+    "dev": "tsc && node dist/server.js",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "websocket",
+    "typescript",
+    "learning"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/ws": "^8.5.10",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
